@@ -18,3 +18,13 @@ variable "instances_per_subnet" {
   type        = number
   default     = 1
 }
+
+variable "ami" {
+  type = string
+  description = "AMI to deploy"
+}
+
+variable "instance_name_prefix" {
+  type = string
+  description = "Instance name prefix"
+}
